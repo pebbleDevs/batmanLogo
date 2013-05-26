@@ -1,0 +1,40 @@
+
+{"friendlyVersion": "VERSION",
+ "versionDefName": "APP_RESOURCES",
+ "media": [
+	   {
+        "type": "png",
+        "defName": "IMAGE_MENU_ICON",
+        "file": "images/menu_icon_batman.png"
+        },
+        
+        {
+        "type": "png",
+        "defName": "BATMAN_LOGO_BOW",
+        "file": "images/batman-logo.png"
+        },
+        
+        {
+        "type": "font",
+        "characterRegex": "[:0-9]",
+        "defName": "FONT_BATMAN_FOREVER_NUMBERS_SUBSET_40",
+        "file": "fonts/batmanForever.ttf"
+        },
+        
+        {
+        "type": "font",
+        "characterRegex": "[Ccreatd By83]",
+        "defName": "FONT_BATMAN_FOREVER_LETTERS_15",
+        "file": "fonts/batmanForever.ttf"
+        },
+        
+        {
+        "type": "font",
+        "characterRegex": "[alokc83]",
+        "defName": "FONT_BATMAN_FOREVER_LETTERS_20",
+        "file": "fonts/batmanForever.ttf"
+        }
+        
+
+	  ]
+}
