@@ -32,7 +32,8 @@ void creditBanner()
   //setting the layer attributes
   text_layer_set_text_color(&text_creditLine1_layer, GColorBlack);
   text_layer_set_background_color(&text_creditLine1_layer, GColorClear);
-  //positing attributes
+  //positioning attributes
+  text_layer_set_text_alignment(&text_creditLine1_layer, GTextAlignmentCenter);
   layer_set_frame(&text_creditLine1_layer.layer, GRect(15,80,150,90));
   //Font attribute
   batman_letters_15 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BATMAN_FOREVER_LETTERS_15));
@@ -46,6 +47,7 @@ void creditBanner()
   text_layer_set_text_color(&text_creditLine2_layer, GColorBlack);
   text_layer_set_background_color(&text_creditLine2_layer, GColorClear);
   //positiong attribute
+  text_layer_set_text_alignment(&text_creditLine2_layer, GTextAlignmentCenter);
   layer_set_frame(&text_creditLine2_layer.layer, GRect(20,100,160,120));
   //Font attribute
   batman_letters_20 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BATMAN_FOREVER_LETTERS_20));
@@ -76,6 +78,9 @@ void handle_init(AppContextRef ctx) {
   text_layer_init(&text_time_layer, window.layer.frame);
   text_layer_set_text_color(&text_time_layer, GColorBlack);
   text_layer_set_background_color(&text_time_layer, GColorClear);
+  
+  //positioning attributes
+  text_layer_set_text_alignment(&text_time_layer, GTextAlignmentCenter);
   layer_set_frame(&text_time_layer.layer, GRect(0,80,160,120));
   //Font atterbutes
   batman_numbers_40 = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_BATMAN_FOREVER_NUMBERS_SUBSET_40));
