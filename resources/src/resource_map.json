@@ -5,13 +5,13 @@
 	   {
         "type": "png",
         "defName": "IMAGE_MENU_ICON",
-        "file": "images/batman-logo-bow.png"
+        "file": "images/menu_icon_batman.png"
         },
         
         {
         "type": "png",
         "defName": "BATMAN_LOGO_BOW",
-        "file": "images/batman-logo.png"
+        "file": "images/batman-logo-bow.png"
         },
         
         {
@@ -23,14 +23,14 @@
         
         {
         "type": "font",
-        "characterRegex": "[Ccreatd By83]",
+        "characterRegex": "[Dvloped By83]",
         "defName": "FONT_BATMAN_FOREVER_LETTERS_15",
         "file": "fonts/batmanForever.ttf"
         },
         
         {
         "type": "font",
-        "characterRegex": "[alokc83]",
+        "characterRegex": "[alokc83PMonTueWdThFriSatJbApMylgpOcNvDc]",
         "defName": "FONT_BATMAN_FOREVER_LETTERS_20",
         "file": "fonts/batmanForever.ttf"
         }
